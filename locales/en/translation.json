@@ -1,14 +1,308 @@
 {
     "global": {
         "email": "Email",
-        "password": "Password"
+        "password": "Password",
+        "age": "",
+        "binary": "",
+        "country": "",
+        "create_account_title": "",
+        "etandem": "",
+        "error": "",
+        "firstname": "",
+        "gender": "",
+        "lastname": "",
+        "men": "",
+        "no": "",
+        "pairing_title": "",
+        "question": "",
+        "tandem": "",
+        "tandem_etandem": "",
+        "woman": "",
+        "yes": ""
     },
     "login_page": {
         "button": "Login",
         "subtitle": "Welcome back! Sign in using your social account or email to continue us",
-        "title": "Login"
+        "title": "Login",
+        "forgot": "",
+        "invalid_email": "",
+        "invalid_password": ""
     },
     "days": {
-        "monday": "Monday"
+        "monday": "Monday",
+        "wednesday": "",
+        "thursday": "",
+        "friday": "",
+        "saturday": "",
+        "sunday": "",
+        "tuesday": ""
+    },
+    "errors": {
+        "global": "",
+        "userDoesntExist": "",
+        "userWrongCredentials": ""
+    },
+    "forgot_password_page": {
+        "button": "",
+        "invalid_email": "",
+        "title": ""
+    },
+    "forgot_password_sent_page": {
+        "button": "",
+        "footer_first_line": "",
+        "footer_second_line": "",
+        "forgot": "",
+        "subtitle": "",
+        "title": ""
+    },
+    "connection_page": {
+        "connect_title": "",
+        "connect_button": "",
+        "signup_title": "",
+        "signup_button": ""
+    },
+    "pairing_confirm_language_page": {
+        "language_title": "",
+        "mode_meet": "",
+        "not_alone": {
+            "description": "",
+            "description_title": "",
+            "subtitle": "",
+            "title": "",
+            "validate_button": ""
+        },
+        "subtitle": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "pairing_final_page": {
+        "congratulation": "",
+        "congratulation_text": "",
+        "language_title": "",
+        "mode_meet": "",
+        "tandem": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "pairing_options_page": {
+        "certificat": "",
+        "pass_button": "",
+        "program": "",
+        "program_subtitle": "",
+        "same_tandem": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "pairing_preference_page": {
+        "none": "",
+        "same_age": "",
+        "same_gender": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "pairing_quizz_description_page": {
+        "A1": "",
+        "A2": "",
+        "B1": "",
+        "C1": "",
+        "pass_button": "",
+        "subtitle": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "pairing_quizz_introduction_page": {
+        "description": "",
+        "subtitle": "",
+        "time": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "pairing_quizz_page": {
+        "subtitle": "",
+        "title": ""
+    },
+    "pairing_quizz_validation": {
+        "description": "",
+        "description_next_step": "",
+        "next_button": "",
+        "next_step_button": "",
+        "subtitle": "",
+        "title": "",
+        "validated": ""
+    },
+    "pairing_languages_page": {
+        "subtitle": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "pairing_level_page": {
+        "know_button": "",
+        "know_title": "",
+        "subtitle": "",
+        "title": "",
+        "unknow_button": "",
+        "unknow_title": "",
+        "validate_button": ""
+    },
+    "pairing_other_languages_page": {
+        "joker_checkbox": "",
+        "joker_description": "",
+        "selected_language": {
+            "explain_first_start": "",
+            "explain_first_end": "",
+            "explain_second": "",
+            "explain_third": "",
+            "language": "",
+            "subtitle": "",
+            "title": "",
+            "validate_button": ""
+        },
+        "subtitle": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "pairing_pedagogy_page": {
+        "both_button": "",
+        "both_title": "",
+        "etandem_button": "",
+        "etandem_title": "",
+        "subtitle": "",
+        "tandem_button": "",
+        "tandem_title": "",
+        "title": ""
+    },
+    "pairing_select_level_page": {
+        "no_knowledge": "",
+        "subtitle": "",
+        "test_button": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "pairing_unavailable_language_page": {
+        "luck": "",
+        "next_button": "",
+        "next_title": "",
+        "not_alone": {
+            "description": "",
+            "subtitle": "",
+            "title": "",
+            "validate_button": ""
+        },
+        "ressource_button": "",
+        "ressource_title": "",
+        "subtitle": "",
+        "title": ""
+    },
+    "reset_password_page": {
+        "button": "",
+        "confirm_password_title": "",
+        "confirm_password_error": "",
+        "new_password_title": "",
+        "new_password_error": "",
+        "title": ""
+    },
+    "signup_availabilities_page": {
+        "AVAILABLE": "",
+        "modal": {
+            "note": "",
+            "pass_button": "",
+            "private_text": "",
+            "send_button": "",
+            "title_note": "",
+            "validate_button": ""
+        },
+        "subtitle": "",
+        "timezone": "",
+        "title": "",
+        "UNAVAILABLE": "",
+        "validate_button": "",
+        "VERY_AVAILABLE": ""
+    },
+    "signup_biography_page": {
+        "error_message": "",
+        "incredible_placeholder": "",
+        "incredible_title": "",
+        "place_placeholder": "",
+        "place_title": "",
+        "power_placeholder": "",
+        "power_title": "",
+        "subtitle": "",
+        "title": "",
+        "travel_placeholder": "",
+        "travel_title": "",
+        "validate_button": ""
+    },
+    "signup_end_page": {
+        "account": "",
+        "description": "",
+        "thanks": "",
+        "validate_button": ""
+    },
+    "signup_frequency_page": {
+        "ONCE_A_WEEK": "",
+        "subtitle": "",
+        "THREE_TIMES_A_MONTH": "",
+        "THREE_TIMES_A_WEEK": "",
+        "title": "",
+        "TWICE_A_MONTH": "",
+        "TWICE_A_WEEK": "",
+        "validate_button": ""
+    },
+    "signup_goals_page": {
+        "pass_button": "",
+        "subtitle": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "signup_languages_page": {
+        "language": "",
+        "other_languages": "",
+        "placeholder_primary_language": "",
+        "placeholder_first_optional_language": "",
+        "placeholder_second_optional_language": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "signup_informations_page": {
+        "confirm_password": "",
+        "cgu": "",
+        "error_age": "",
+        "error_confirm_password": "",
+        "error_email": "",
+        "error_firstname": "",
+        "error_gender": "",
+        "error_lastname": "",
+        "error_password": "",
+        "photo": "",
+        "photo_selected": "",
+        "placeholder_age": "",
+        "placeholder_confirm_password": "",
+        "placeholder_email": "",
+        "placeholder_firstname": "",
+        "placeholder_name": "",
+        "placeholder_password": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "signup_interests_page": {
+        "subtitle": "",
+        "title": "",
+        "validate_button": ""
+    },
+    "signup_page": {
+        "country_placeholder": "",
+        "department_title": "",
+        "diplome_title": "",
+        "error": "",
+        "function_title": "",
+        "footer_email": "",
+        "footer_university": "",
+        "profile_title": "",
+        "sso_button": "",
+        "staff_role": "",
+        "student_role": "",
+        "title": "",
+        "university_title": "",
+        "validate_button": ""
     }
 }
